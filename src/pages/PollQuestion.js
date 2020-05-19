@@ -1,5 +1,8 @@
 import React, {Component} from 'react';
 import {withRouter} from "react-router-dom";
+import {connect} from "react-redux";
+import {handleAddAnswer} from "../store/actions/shared";
+
 import {withStyles} from '@material-ui/core/styles';
 import Card from '@material-ui/core/Card';
 import CardHeader from '@material-ui/core/CardHeader';
@@ -12,9 +15,6 @@ import Radio from '@material-ui/core/Radio';
 import RadioGroup from '@material-ui/core/RadioGroup';
 import FormControlLabel from '@material-ui/core/FormControlLabel';
 import FormControl from '@material-ui/core/FormControl';
-
-import {connect} from "react-redux";
-import {handleAddAnswer} from "../store/actions/shared";
 
 class PollQuestion extends Component{
     state = {

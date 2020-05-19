@@ -14,7 +14,6 @@ import Avatar from "@material-ui/core/Avatar";
 
 class Nav extends Component {
     state = {
-        //path: this.props.history.location.pathname
         path: this.props.path
     }
 

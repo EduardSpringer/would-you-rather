@@ -1,4 +1,4 @@
-// help to view the actions and state of the store
+/* Helps to view the actions and states of the redux store */
 const logger = (store) => (next) => (action) => {
     console.group(action.type);
     console.log('The action: ', action);

@@ -1,4 +1,6 @@
 import React, {Component} from 'react'
+import {connect} from "react-redux";
+
 import CardHeader from "@material-ui/core/CardHeader";
 import Avatar from "@material-ui/core/Avatar";
 import CardContent from "@material-ui/core/CardContent";
@@ -7,7 +9,6 @@ import Chip from "@material-ui/core/Chip";
 import Box from "@material-ui/core/Box";
 import LinearProgress from "@material-ui/core/LinearProgress";
 import Card from "@material-ui/core/Card";
-import {connect} from "react-redux";
 import {withStyles} from "@material-ui/core/styles";
 
 class PollResult extends Component {

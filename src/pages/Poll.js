@@ -1,7 +1,6 @@
 import React, {Component} from 'react';
 import {connect} from "react-redux";
 import {withRouter} from "react-router-dom";
-
 import {setAuthedUser} from "../store/actions/authedUser";
 
 import Grid from "@material-ui/core/Grid";

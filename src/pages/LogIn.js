@@ -11,8 +11,9 @@ import FormControl from '@material-ui/core/FormControl';
 import Select from '@material-ui/core/Select';
 import ListItemIcon from '@material-ui/core/ListItemIcon';
 import Button from '@material-ui/core/Button';
-import Nav from "../components/Nav";
 import Avatar from "@material-ui/core/Avatar";
+
+import Nav from "../components/Nav";
 
 class LogIn extends Component {
     state = {

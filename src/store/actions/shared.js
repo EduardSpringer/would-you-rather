@@ -14,7 +14,7 @@ import {
     addAnswerToQuestion
 } from "./questions";
 
-//to fill the store with data when app loads
+/* To fill the store with data when app loads */
 export function handleInitialData() {
     return dispatch => {
         return getInitialData()

@@ -1,8 +1,8 @@
 import React, {Component} from 'react'
 import {connect} from "react-redux";
 
-import Grid from "@material-ui/core/Grid";
 import {withStyles} from "@material-ui/core/styles";
+import Grid from "@material-ui/core/Grid";
 
 import Nav from "../components/Nav";
 
@@ -33,7 +33,7 @@ class NotFound404 extends Component {
     }
 }
 
-const useStyles = theme => ({
+const useStyles = () => ({
     img: {
         width: 600
     },

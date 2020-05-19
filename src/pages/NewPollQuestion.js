@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import {connect} from "react-redux";
+import {withRouter} from "react-router-dom";
 import {handleAddQuestion} from "../store/actions/shared";
 
 import {withStyles} from '@material-ui/core/styles';
@@ -15,7 +16,6 @@ import Snackbar from '@material-ui/core/Snackbar';
 import MuiAlert from '@material-ui/lab/Alert';
 
 import Nav from "../components/Nav";
-import {withRouter} from "react-router-dom";
 
 class NewPollQuestion extends Component {
     state = {
