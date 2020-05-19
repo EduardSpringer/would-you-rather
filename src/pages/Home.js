@@ -135,7 +135,7 @@ function mapStateToProps({users, authedUser, questions}) {
     }
 }
 
-function mapDispatchToProps(dispatch) {
+function mapDispatchToProps() {
     return ({})
 }
 
